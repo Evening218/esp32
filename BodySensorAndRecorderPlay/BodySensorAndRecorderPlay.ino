@@ -12,15 +12,9 @@ void loop() {
   int v = digitalRead(17);
   Serial.println(v);
   if(v==1){
-    digitalWrite(15, HIGH);
-    digitalWrite(2, LOW);
     digitalWrite(16, HIGH);
     delay(100);
     digitalWrite(16, LOW);
-  }
-  if(v==0){
-    digitalWrite(2, HIGH);
-    digitalWrite(15, LOW);
   }
   delay(500);
 }
