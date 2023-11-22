@@ -5,7 +5,7 @@
 //請修改以下參數--------------------------------------------
 char ssid[] = "XperiaZN";
 char password[] = "amje1216";
-String Linetoken = "VFP2ZBiNxonfpXct8b3xGy1Lc8oDDgFPK4fH3Ynwm9m";
+String Linetoken = "";
 int pinDHT11 = 4;//假設DHT11 接在腳位GPIO4，DHT11 接線圖請參考P74
 //---------------------------------------------------------
 SimpleDHT11 dht11(pinDHT11);
