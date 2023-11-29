@@ -5,7 +5,7 @@
 char ssid[] = "XperiaZN"; //請修改為您連線的網路名稱
 char password[] = "amje1216"; //請修改為您連線的網路密碼
 //將原本ThingSpeak的網址換成ifttt網址
-String url = "http://maker.ifttt.com/trigger/classroom254/with/key/oamm7n5c9iPq3SynjdnjVeg8UZ2i4hipkTtmtUdDcsT";
+String url = "http://maker.ifttt.com/trigger/classroom254/with/key/";
 
 int pinDHT11 = 4;//假設DHT11 接在GPIO4，接線圖請參考P74
 //---------------------------------------------------------
